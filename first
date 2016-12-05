@@ -1,0 +1,22 @@
+def basketballTeam(team):
+   print("")
+   print("The " + team + " are your favorite team in the NBA")
+
+def basketballCoach(nbaCoach):
+   print("Sounds like " + nbaCoach + " coaches that team")
+
+def main():
+    nbaName = input("What is your favorite NBA team?: ")
+    nbaCoach = input("Who is the coach of that team?:")
+    basketballTeam(nbaName)
+    basketballCoach(nbaCoach)
+    
+def main2():
+    print("")
+    print("We should really watch a game to see how good they are")
+    gameDate = input("When is there next games?:")
+    gameDate = gameDate 
+    print("Got it! I will look for tickets for the game on " + gameDate +"")
+    
+main() 
+main2() 
